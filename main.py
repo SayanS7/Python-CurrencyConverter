@@ -36,9 +36,10 @@ def createWidget():
     amount_label.grid(row=2, column=0, pady=10)
 
     global amount_entry1
-    amount_entry1 = Entry(root, width=30, textvariable=amount1, font=font, justify=CENTER)
+    amount_entry1 = Entry(root, width=30, textvariable=amount1, font=font, justify=CENTER, bg='lavender')
     amount_entry1.grid(row=2, column=1, pady=10)
 
+    
     from_country = Label(root, text="From Country: ", font=font)
     from_country.grid(row=3, column=0, padx=5, pady=10)
 
